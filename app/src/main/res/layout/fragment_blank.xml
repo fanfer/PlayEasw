@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:background="@color/white"
+tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/btn_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/message_btn_bg"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="资讯"
+        android:textColor="#AA1B1A1A"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_shop"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/shop_btn_bg"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="商城"
+        android:textColor="#AA1B1A1A"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_core"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/core_btn_bg"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="核心功能"
+        android:textColor="#AA1B1A1A"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_chat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/chat_btn_bg"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="树洞"
+        android:textColor="#AA1B1A1A"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_account"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:drawableTop="@drawable/account_btn_bg"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="我的"
+        android:textColor="#AA1B1A1A"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
+</FrameLayout>
