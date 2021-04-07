@@ -43,7 +43,7 @@ public class AccountActivity extends AppCompatActivity{
         btn_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(AccountActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(AccountActivity.this, InfoActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class AccountActivity extends AppCompatActivity{
         btn_chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(AccountActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(AccountActivity.this, ChattingActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,7 +59,7 @@ public class AccountActivity extends AppCompatActivity{
         btn_core.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(AccountActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(AccountActivity.this, CoreActivity.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class AccountActivity extends AppCompatActivity{
         btn_account.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(AccountActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(AccountActivity.this, AccountActivity.class);
                 startActivity(intent);
             }
         });

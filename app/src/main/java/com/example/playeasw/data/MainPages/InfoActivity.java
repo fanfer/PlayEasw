@@ -46,11 +46,11 @@ public class InfoActivity extends AppCompatActivity {
     //TODO:在内存中读取数据并导入
     private void initProjects(){
         for (int i=0;i<2;i++){
-            projectList.add(new InfoItems(R.drawable.message,"fjldksajf"));
-            projectList.add(new InfoItems(R.drawable.message,"jgklasdjg;lksdja"));
-            projectList.add(new InfoItems(R.drawable.message,"ffdsaafadsfdassajf"));
-            projectList.add(new InfoItems(R.drawable.message,"fjlddsafdasgvdsgadsgadsgf"));
-            projectList.add(new InfoItems(R.drawable.message,"fjldsagadsgasdgdsgdsggdasfdassajf"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607529318338,"fjldksajf"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"jgklasdjg;lksdja"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"ffdsaafadsfdassajf"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874229573,"fjlddsafdasgvdsgadsgadsgf"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607529331593,"fjldsagadsgasdgdsgdsggdasfdassajf"));
 
 
         }
@@ -77,7 +77,7 @@ public class InfoActivity extends AppCompatActivity {
         btn_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(InfoActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(InfoActivity.this, InfoActivity.class);
                 startActivity(intent);
             }
         });
@@ -85,7 +85,7 @@ public class InfoActivity extends AppCompatActivity {
         btn_chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(InfoActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(InfoActivity.this, ChattingActivity.class);
                 startActivity(intent);
             }
         });
@@ -93,7 +93,7 @@ public class InfoActivity extends AppCompatActivity {
         btn_core.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(InfoActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(InfoActivity.this, CoreActivity.class);
                 startActivity(intent);
             }
         });
@@ -101,7 +101,7 @@ public class InfoActivity extends AppCompatActivity {
         btn_account.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(InfoActivity.this, ShopMallActivity.class);
+                Intent intent =new Intent(InfoActivity.this, AccountActivity.class);
                 startActivity(intent);
             }
         });
