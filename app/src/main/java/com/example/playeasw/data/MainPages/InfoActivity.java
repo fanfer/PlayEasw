@@ -38,7 +38,6 @@ public class InfoActivity extends AppCompatActivity {
 
         ListView listView=(ListView) findViewById(R.id.list_Main);
 
-
         listView.setAdapter(Myadapter);
 
     }

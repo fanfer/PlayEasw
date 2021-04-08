@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.playeasw.R;
@@ -15,6 +16,8 @@ public class CoreActivity extends AppCompatActivity {
     private TextView btn_core;
     private TextView btn_info;
     private TextView btn_account;
+    private Button button;
+    private Button button2;
 
 
     @Override
@@ -22,6 +25,24 @@ public class CoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_core);
         initBtns();
+        button=findViewById(R.id.button);
+        button2=findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(CoreActivity.this,Core_doorActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(CoreActivity.this,Core_shopActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
