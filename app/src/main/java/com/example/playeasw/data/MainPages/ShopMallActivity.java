@@ -50,11 +50,20 @@ public class ShopMallActivity extends AppCompatActivity {
 
     }
     private void initProjects() {
-    for (int i=0;i<20;i++){
 
-        projectList.add(new pictureItem(R.drawable.baibai));
 
-        }
+        projectList.add(new pictureItem(R.drawable.img));
+        projectList.add(new pictureItem(R.drawable.img2));
+        projectList.add(new pictureItem(R.drawable.img3));
+        projectList.add(new pictureItem(R.drawable.img4));
+        projectList.add(new pictureItem(R.drawable.img5));
+        projectList.add(new pictureItem(R.drawable.img6));
+        projectList.add(new pictureItem(R.drawable.img7));
+        projectList.add(new pictureItem(R.drawable.img8));
+        projectList.add(new pictureItem(R.drawable.img9));
+
+
+
     }
 
 

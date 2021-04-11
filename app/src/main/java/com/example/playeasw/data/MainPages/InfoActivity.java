@@ -44,15 +44,17 @@ public class InfoActivity extends AppCompatActivity {
 
     //TODO:在内存中读取数据并导入
     private void initProjects(){
-        for (int i=0;i<2;i++){
-            projectList.add(new InfoItems(R.drawable.mmexport1607529318338,"这是一条咨询"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"这是一条咨询"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"这是一条咨询"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874229573,"这是一条咨询"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607529331593,"这是一条咨询"));
+
+            projectList.add(new InfoItems(R.drawable.pic1,"日媒：日本拟最早4月13日开会探讨处置福岛核处理水"));
+            projectList.add(new InfoItems(R.drawable.pic2,"净零峰会呼吁加强国际合作以减少温室气体排放"));
+            projectList.add(new InfoItems(R.drawable.pic3,"蒙古国中戈壁省近期强沙尘暴天气致16万头牲畜死亡"));
+            projectList.add(new InfoItems(R.drawable.pic4,"接力“地球一小时” 全球多个地标建筑熄灯响应活动"));
+            projectList.add(new InfoItems(R.drawable.pic5,"科研人员破解豆科植物在“恐龙大灭绝”时期幸存“密码”"));
+            projectList.add(new InfoItems(R.drawable.pic66,"研究表明：氮沉降极显著增加全球草地生态系统氧化亚氮排放速率"));
+            projectList.add(new InfoItems(R.drawable.pic7,"新加坡南洋理工大学研发植物“通信”设备 未来可成为环境探测器"));
+            projectList.add(new InfoItems(R.drawable.pic8,"海洋面临威胁前所未有 危害将持续数百年"));
 
 
-        }
 
     }
 

@@ -20,8 +20,8 @@
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
+            android:layout_weight="3"
             android:orientation="vertical">
 
             <TextView
@@ -29,66 +29,125 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="手账"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="文具"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="胶带"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="电影"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_weight="1"
 
+                android:clickable="true"
+
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="花卉"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="饰品"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="挎包"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#dfdfdf" />
         </LinearLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#dfdfdf"/>
 
         <ListView
             android:id="@+id/list_Main"
             android:layout_width="0dp"
-            android:layout_weight="3"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
 
     </LinearLayout>
 
