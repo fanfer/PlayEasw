@@ -152,6 +152,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="176dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
                 android:layout_weight="1"
                 android:text="备注"
                 android:textSize="24sp" />
@@ -172,7 +173,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button_admit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"

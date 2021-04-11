@@ -154,6 +154,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="备注"
+                android:layout_marginTop="23dp"
                 android:textSize="24sp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -166,6 +167,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#FFFFFF"
+
                     android:hint="备注" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>

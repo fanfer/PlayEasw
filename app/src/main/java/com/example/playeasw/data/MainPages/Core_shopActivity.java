@@ -17,7 +17,7 @@ public class Core_shopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_core_shop);
 
-        Button button=findViewById(R.id.button3);
+        Button button=findViewById(R.id.button_admit);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

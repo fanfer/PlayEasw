@@ -45,11 +45,11 @@ public class InfoActivity extends AppCompatActivity {
     //TODO:在内存中读取数据并导入
     private void initProjects(){
         for (int i=0;i<2;i++){
-            projectList.add(new InfoItems(R.drawable.mmexport1607529318338,"fjldksajf"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"jgklasdjg;lksdja"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"ffdsaafadsfdassajf"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607874229573,"fjlddsafdasgvdsgadsgadsgf"));
-            projectList.add(new InfoItems(R.drawable.mmexport1607529331593,"fjldsagadsgasdgdsgdsggdasfdassajf"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607529318338,"这是一条咨询"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"这是一条咨询"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874227525,"这是一条咨询"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607874229573,"这是一条咨询"));
+            projectList.add(new InfoItems(R.drawable.mmexport1607529331593,"这是一条咨询"));
 
 
         }
