@@ -198,7 +198,7 @@
             android:drawableTop="@drawable/core_btn_bg"
             android:gravity="center"
             android:padding="4dp"
-            android:text="核心功能"
+            android:text="源创"
             android:textColor="#AA1B1A1A"
             android:textSize="12sp" />
 
