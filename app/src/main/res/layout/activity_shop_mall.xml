@@ -9,19 +9,19 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout7"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="480dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
+            android:layout_weight="2"
             android:orientation="vertical">
 
             <TextView
@@ -138,10 +138,11 @@
                 android:layout_height="2dp"
                 android:background="#dfdfdf" />
         </LinearLayout>
+
         <View
             android:layout_width="2dp"
             android:layout_height="match_parent"
-            android:background="#dfdfdf"/>
+            android:background="#dfdfdf" />
 
         <ListView
             android:id="@+id/list_Main"
@@ -230,5 +231,16 @@
 
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bannerimg"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bannerimg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

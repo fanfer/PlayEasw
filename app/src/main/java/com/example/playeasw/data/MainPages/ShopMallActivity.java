@@ -9,8 +9,10 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.os.Handler;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -18,9 +20,7 @@ import android.widget.TextView;
 import com.example.playeasw.R;
 import com.example.playeasw.data.projectUtils.InfoAdapter;
 import com.example.playeasw.data.projectUtils.InfoItems;
-import com.example.playeasw.data.projectUtils.pictureAdapter;
 import com.example.playeasw.data.projectUtils.pictureItem;
-import com.youth.banner.Banner;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +32,8 @@ public class ShopMallActivity extends AppCompatActivity {
     private TextView btn_core;
     private TextView btn_info;
     private TextView btn_account;
-    private List<pictureItem> projectList= new ArrayList<>();
-
+    private List<InfoItems> projectList= new ArrayList<>();
+/*    Banner banner=findViewById(R.id.banner);*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,31 +41,70 @@ public class ShopMallActivity extends AppCompatActivity {
         initBtns();
         initProjects();
 
-        pictureAdapter Myadapter=new pictureAdapter(ShopMallActivity.this,R.layout.picture_item,projectList);
-
+        InfoAdapter Myadapter=new InfoAdapter(ShopMallActivity.this,R.layout.info_item,projectList);
         ListView listView=(ListView) findViewById(R.id.list_Main);
-
-
         listView.setAdapter(Myadapter);
 
+  /*      BannerImageAdapter adapter = new BannerImageAdapter(DataBean.getTestData2()) {
+            @Override
+            public void onBindView(Object holder, Object data, int position, int size) {
+
+            }
+        };
+
+
+        banner.setAdapter(adapter)
+                .addBannerLifecycleObserver(this)//添加生命周期观察者
+                .setIndicator(new CircleIndicator(this))//设置指示器
+                .setOnBannerListener((data, position) -> {
+                    Snackbar.make(banner, ((DataBean) data).title, Snackbar.LENGTH_SHORT).show();
+                    LogUtils.d("position：" + position);
+                });*/
+
+
+
     }
+
+   /* public class BannerActivity extends AppCompatActivity {
+        public void useBanner() {
+            //--------------------------简单使用-------------------------------
+            banner.addBannerLifecycleObserver(this)//添加生命周期观察者
+                    .setAdapter(new BannerImageAdapter(DataBean.getTestData()) {
+                        @Override
+                        public void onBindView(Object holder, Object data, int position, int size) {
+
+                        }
+                    })
+                    .setIndicator(new CircleIndicator(this));
+
+            //—————————————————————————如果你想偷懒，而又只是图片轮播————————————————————————
+            banner.setAdapter(new BannerImageAdapter<DataBean>(DataBean.getTestData3()) {
+                @Override
+                public void onBindView(BannerImageHolder holder, DataBean data, int position, int size) {
+                    //图片加载自己实现
+                    Glide.with(holder.itemView)
+                            .load(data.imageUrl)
+                            .apply(RequestOptions.bitmapTransform(new RoundedCorners(30)))
+                            .into(holder.imageView);
+                }
+            })
+                    .addBannerLifecycleObserver(this)//添加生命周期观察者
+                    .setIndicator(new CircleIndicator(this));
+        }
+    }*/
     private void initProjects() {
 
-
-        projectList.add(new pictureItem(R.drawable.img));
-        projectList.add(new pictureItem(R.drawable.img2));
-        projectList.add(new pictureItem(R.drawable.img3));
-        projectList.add(new pictureItem(R.drawable.img4));
-        projectList.add(new pictureItem(R.drawable.img5));
-        projectList.add(new pictureItem(R.drawable.img6));
-        projectList.add(new pictureItem(R.drawable.img7));
-        projectList.add(new pictureItem(R.drawable.img8));
-        projectList.add(new pictureItem(R.drawable.img9));
-
-
+        projectList.add(new InfoItems(R.drawable.img,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img2,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img3,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img4,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img5,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img6,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img7,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img8,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img9,"这件商品的描述"));
 
     }
-
 
 
     public void initBtns(){
