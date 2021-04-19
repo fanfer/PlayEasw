@@ -94,15 +94,15 @@ public class ShopMallActivity extends AppCompatActivity {
     }*/
     private void initProjects() {
 
-        projectList.add(new InfoItems(R.drawable.img,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img2,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img3,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img4,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img5,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img6,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img7,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img8,"这件商品的描述"));
-        projectList.add(new InfoItems(R.drawable.img9,"这件商品的描述"));
+        projectList.add(new InfoItems(R.drawable.img,"余生的第一天手帐本"));
+        projectList.add(new InfoItems(R.drawable.img2,"古风手帐 和纸胶带"));
+        projectList.add(new InfoItems(R.drawable.img3,"花卉植物小清新手帐装饰DIY贴画"));
+        projectList.add(new InfoItems(R.drawable.img4,"电影治愈胶片贴纸"));
+        projectList.add(new InfoItems(R.drawable.img5,"故宫 金殿峥嵘"));
+        projectList.add(new InfoItems(R.drawable.img6,"摄影集《富士山下》"));
+        projectList.add(new InfoItems(R.drawable.img7,"光影纸雕灯故宫"));
+        projectList.add(new InfoItems(R.drawable.img8,"旧物利用 手工自制帆布包"));
+        projectList.add(new InfoItems(R.drawable.img9,"旧物利用 古典流苏书签大熊猫"));
 
     }
 
