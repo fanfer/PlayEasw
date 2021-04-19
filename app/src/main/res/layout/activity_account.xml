@@ -26,7 +26,7 @@
             android:drawableTop="@drawable/message_btn_bg"
             android:gravity="center"
             android:padding="4dp"
-            android:text="资讯"
+            android:text="趣创"
             android:textColor="#AA1B1A1A"
             android:textSize="12sp" />
 
@@ -39,7 +39,7 @@
             android:focusable="true"
             android:gravity="center"
             android:padding="4dp"
-            android:text="商城"
+            android:text="购创"
             android:textColor="#AA1B1A1A"
             android:textSize="12sp" />
 
@@ -65,7 +65,7 @@
             android:drawableTop="@drawable/chat_btn_bg"
             android:gravity="center"
             android:padding="4dp"
-            android:text="树洞"
+            android:text="谈创"
             android:textColor="#AA1B1A1A"
             android:textSize="12sp" />
 
